@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+#container {
+    margin: 0px auto;
+    height: 1200px;
+    width: 80%;
+    background-color: blue;
+    padding: px;
+}
+
+#header {
+    margin: 0px auto;
+    margin-top: 5px;
+    height: 60px;
+    width: 97%;
+    background-color: red;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+}
+
+#title{
+    color: black;
+    background-color: red;
+    font-size: 26px;
+}

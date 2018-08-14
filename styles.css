@@ -1,0 +1,61 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+    width: 1000px;
+    height: 1300px;
+    background-color: darkslateblue;
+    margin: 0px auto;
+    padding: 15px;
+}
+
+.tech1{
+ height: 250px;
+ width: 313px;
+ background-color: silver;
+ display: inline-block;
+ margin-right: 15px;
+}
+
+.tech2{
+    height: 250px;
+    width: 313px;
+    background-color: silver;
+    display: inline-block;
+    margin-right: 15px;
+   }
+
+.tech3{
+    height: 250px;
+    width: 313px;
+    background-color: silver;
+    display: inline-block;
+    margin-right: 15px;
+   }
+
+.tech1 h3 {
+    background-color: gray;
+}
+
+.tech2 h3 {
+    background-color: gray;
+}
+
+.tech3 h3 {
+    background-color: gray;
+}
+
+.img{
+    height: 48px;
+    width: 48px;
+    padding: 5px;
+    display: inline-block;
+}
+.intro_1 {
+    display: inline-block;
+}
+.intro_2 {
+    display: inline-block;
+}

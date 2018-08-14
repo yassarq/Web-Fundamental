@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* HEADER CSS */
+#container { 
+    height: 1000px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: black;
+    padding: 15px;
+    
+    display: flex;  
+    flex-direction: column;
+
+}
+
+#header {
+    height: 22px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#links {
+    width: 473px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;  
+}
+
+#links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14.68px;
+    font-family: arial, sans-serif;
+}
+
+#title {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size: 26px;
+}
+
+.lightb {
+    color: lightblue;
+}
+
+/* MAIN CONTENT CSS */
+
+#main-content {
+    background-color: white;
+    width: 96.35%; 
+    height: 100%;
+    margin-top: 15px;
+    padding: 15px;  
+}
+
+#hero {
+    width: 100%;
+}
+
+#contain-sub {
+    margin-top: 10px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subcontents {  
+    height: 200px;
+    width: 30%;
+    background-color: rgba(0,106,164);
+    padding: 10px;
+
+    display: flex;
+    align-content: center; 
+    flex-direction: column;
+}
+
+.subcontents img {
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+}
+
+.sub-title {
+    font-family: Arial, sans-serif;
+    color: white;
+    font-size: 25px;
+    height: 26px;
+    margin-top: 5px;
+
+    
+}
+
+.middle-align {
+    display: flex;
+    align-content: center;
+}
+
+.sub-text { 
+    margin: 7px 0px 0px 10px;
+    color: white;
+}
+
+button { 
+    height: 36px;
+    width: 84px;
+    background-color: #2DA8E7;
+    border-radius: 5px;
+    border: none;
+    margin: 36px 0px 0px 8px;
+}
